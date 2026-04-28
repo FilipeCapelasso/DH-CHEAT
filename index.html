@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DH Cheats — Void Hybrid</title>
-:link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
@@ -14,7 +14,7 @@
   --blue:#00c3ff;--blue2:#0077ff;
   --gold:#f0b429;
   --border:rgba(255,36,67,.2);
-  --text:#ddddf0;--muted:#6868a0;
+  --text:#ddddf0;--muted:#aeb4d6;
   --glow-red:0 0 24px rgba(255,36,67,.5),0 0 60px rgba(255,36,67,.2);
   --glow-blue:0 0 24px rgba(0,195,255,.4),0 0 60px rgba(0,195,255,.15);
 }
@@ -261,6 +261,16 @@ a{color:var(--accent-new)}
 .product-card, .plan-card, .feat-group{background:linear-gradient(180deg,#0c0d14,#0f1117)}
 img{max-width:100%;height:auto;display:block}
 .hero-title{font-weight:700 !important;letter-spacing:0.02em !important}
+
+/* Accessibility & visibility overrides */
+body{color:var(--text) !important;font-size:16px;line-height:1.6}
+.nav-links a, a{color:var(--text) !important;opacity:0.98}
+.hero-eyebrow,.hero-sub,.card-tagline,.detail-desc,.plan-period,.card-starting,.feat-item,footer p,.section-tag{
+  color:rgba(255,255,255,0.82) !important;
+}
+button, .nav-btn, .btn-primary, .btn-secondary, .plan-btn, .card-arrow{font-family:var(--font-display) !important}
+.use-system-fonts-fallback{font-family:var(--font-sans)}
+
 </style>
 </head>
 <body>
